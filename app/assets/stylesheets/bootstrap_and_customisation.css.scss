@@ -1,13 +1,19 @@
-$body-bg:		#2ecc71;
-$navbar-default-bg:	black;
-$navbar-default-link-color:	white;
+$body-bg:														#2ecc71;
+$navbar-default-bg:									black;
+$navbar-default-link-color:					white;
 $navbar-default-link-hover-color:		grey;
-$brand-primary:	#9b59b6;
-$jumbotron-bg:	#7f8c8d;
-$jumbotron-color:	white;
-$jumbotron-heading-color: white;
+$brand-primary:											white;
+	// ^Troublesome. $brand-primary refers to app font EXCEPT on home page. Strange //
 
+$jumbotron-bg:											#7f8c8d;
+$jumbotron-color:										white;
+$jumbotron-heading-color:						white;
 
+$btn-default-bg:										#3498db;
+$btn-default-border:								#3498db;
+$btn-btn-default-font-color:				white;
+$btn-btn-default-link-color:				white;
 
 @import 'bootstrap';
 
+	// button blue: #3498db from flatuicolors//
