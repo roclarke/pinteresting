@@ -1,4 +1,7 @@
-$body-bg:														#2ecc71;
+@import url(http://fonts.googleapis.com/css?family=Marmelad);
+
+$body-bg:														#ecf0f1;
+$font-family-sans-serif:						'Marmelad';
 $navbar-default-bg:									black;
 $navbar-default-link-color:					white;
 $navbar-default-link-hover-color:		grey;
@@ -14,6 +17,16 @@ $btn-default-border:								#3498db;
 $btn-btn-default-font-color:				white;
 $btn-btn-default-link-color:				white;
 
-@import 'bootstrap';
 
-	// button blue: #3498db from flatuicolors//
+.center {
+	text-align: center;
+}
+// Centers all text in stylesheet //
+
+.navbar-brand {
+	font-weight: bold;
+}
+// Overrides bootstrap defaults and allows 'navbar-brand' font to be bold. Personal pref //
+
+
+@import 'bootstrap';
