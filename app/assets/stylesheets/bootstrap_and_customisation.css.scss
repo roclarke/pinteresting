@@ -2,20 +2,28 @@
 
 $body-bg:														#ecf0f1;
 $font-family-sans-serif:						'Marmelad';
-$navbar-default-bg:									black;
-$navbar-default-link-color:					white;
-$navbar-default-link-hover-color:		grey;
-$brand-primary:											white;
+$navbar-default-bg:									white;
+$navbar-default-link-color:					#e74c3c;
+$navbar-default-link-hover-color:		#2B0000;
+$brand-primary:											#2B0000;
 	// ^Troublesome. $brand-primary refers to app font EXCEPT on home page. Strange //
 
-$jumbotron-bg:											#7f8c8d;
-$jumbotron-color:										white;
-$jumbotron-heading-color:						white;
+$jumbotron-bg:											white;
+$jumbotron-color:										#2B0000;
+$jumbotron-heading-color:						#2B0000;
 
-$btn-default-bg:										#3498db;
-$btn-default-border:								#3498db;
+$btn-default-bg:										#e74c3c;
+$btn-default-border:								#e74c3c;
 $btn-btn-default-font-color:				white;
 $btn-btn-default-link-color:				white;
+$btn-default-color:									white;
+// 
+$btn-success-bg:										#2ecc71;
+$btn-success-border:								#2ecc71;
+$btn-success-font-color:						white;
+$btn-success-link-color:						white;
+
+
 
 
 .center {
