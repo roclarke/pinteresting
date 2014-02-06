@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Marmelad);
 
-$body-bg:														#ecf0f1;
+$body-bg:														white;
+// ^ does not work...?
 $font-family-sans-serif:						'Marmelad';
-$navbar-default-bg:									white;
+$navbar-default-bg:									#bdc3c7;
 $navbar-default-link-color:					#e74c3c;
 $navbar-default-link-hover-color:		#2B0000;
 $brand-primary:											#2B0000;
 	// ^Troublesome. $brand-primary refers to app font EXCEPT on home page. Strange //
 
-$jumbotron-bg:											white;
+$jumbotron-bg:											#bdc3c7;
 $jumbotron-color:										#2B0000;
 $jumbotron-heading-color:						#2B0000;
 
